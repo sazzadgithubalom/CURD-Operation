@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+
+  <servlet>
+  	<servlet-name>MyJDBCClass</servlet-name>
+  	<servlet-class>com.sazzad.demo.MyJDBCClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MyJDBCClass</servlet-name>
+  	<url-pattern>/MyJDBCClass</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>AddServlet</servlet-name>
+  	<servlet-class>com.sazzad.demo.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddServlet</servlet-name>
+  	<url-pattern>/AddServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<servlet-class>com.sazzad.demo.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<servlet-class>com.sazzad.demo.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>FindServlet</servlet-name>
+  	<servlet-class>com.sazzad.demo.FindServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FindServlet</servlet-name>
+  	<url-pattern>/FindServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
